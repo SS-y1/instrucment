@@ -12,7 +12,7 @@ function preload() {
     moon = loadImage('moon.png')
     building = loadImage('building.jpg')
     stars = loadImage('stars.png')
-    sound = loadSound('Mmusic.mp3');
+    sound = loadSound(callAndroid());
     background = loadImage('background.jpg')
 }
 
