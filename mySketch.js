@@ -14,7 +14,7 @@ function preload() {
     stars = loadImage('stars.png')
     // const musicUrl = callAndroid().toString()
     // const musicUrl =
-    sound = loadSound("http://m701.music.126.net/20230320173658/824ab48a977d3a6658433fb3af871ae5/jdymusic/obj/wo3DlMOGwrbDjj7DisKw/25815387542/38fa/906c/49af/73b6f797a676291c309c9e5b189ad81c.mp3")
+    sound = loadSound("https://m701.music.126.net/20230320173658/824ab48a977d3a6658433fb3af871ae5/jdymusic/obj/wo3DlMOGwrbDjj7DisKw/25815387542/38fa/906c/49af/73b6f797a676291c309c9e5b189ad81c.mp3")
     // sound = loadSound(musicUrl)
     background = loadImage('background.jpg')
 }
