@@ -13,7 +13,10 @@
        <button onclick="callAndroid()">调Android方法</button>
         <script type="text/javascript">
             function callAndroid(){
-                return Vine.showString()
+                console.log( Vine.showString())
+                let url =  "http://m801.music.126.net/20230320161802/a7bc8fe9437743fe0bdebae5c782f350/jdymusic/obj/wo3DlMOGwrbDjj7DisKw/25829204270/de80/5ae3/decc/003ab4d3dd544059f98caff4cdc500cf.mp3"
+                return url === Vine.showString() ? Vine.showString() : null
+            }
                
             }
        </script>
