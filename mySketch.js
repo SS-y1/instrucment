@@ -12,7 +12,8 @@ function preload() {
     moon = loadImage('moon.png')
     building = loadImage('building.jpg')
     stars = loadImage('stars.png')
-    sound = loadSound(callAndroid());
+
+    sound = loadSound(callAndroid())
     background = loadImage('background.jpg')
 }
 
