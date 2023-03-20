@@ -21,7 +21,7 @@ function preload() {
 
 
 function setup() {
-    createCanvas(1600, 800);
+    createCanvas(1600, 700);
 
     //colorMode(HSB);
     sound.play();
