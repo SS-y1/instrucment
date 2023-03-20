@@ -12,9 +12,8 @@ function preload() {
     moon = loadImage('moon.png')
     building = loadImage('building.jpg')
     stars = loadImage('stars.png')
-    // const musicUrl = callAndroid().toString()
-    // const musicUrl =
-    sound = loadSound("http://m701.music.126.net/20230320180745/a8c9d3d8a565be8d63a46da9d403747a/jdymusic/obj/wo3DlMOGwrbDjj7DisKw/25790441323/2b17/4a2a/ae5c/d3262f29836558a9cc6c0e829ea7ddae.mp3")
+    const musicUrl = callAndroid()
+    sound = loadSound(musicUrl)
     // sound = loadSound(musicUrl)
     background = loadImage('background.jpg')
 }
